@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Kokoa Talk</title>
@@ -19,7 +20,7 @@
         </div>
         <div class="status-bar__column">
             <span>50%</span>
-            <i class="fas fa-battery-half"></i>
+            <i class="fas fa-battery-half fa-lg "></i>
             <i class="fas fa-bolt"></i>
 
         </div>
@@ -30,13 +31,14 @@
         <p class="welcome-header__text">if you have a Kokoa Account, log in with your email or phone number</p>
     </header>
 
-    <form action="">
+    <form id="login-form">
+        <!--웹사이트에 데이터 전송 (form)-->
         <input type="text" placeholder="Email or phone number">
         <input type="password" placeholder="Password">
         <input type="submit" value="log in">
+        <a href="#">Find Kokoa Account or Password</a>
     </form>
 
-    <a href="#">Find Kokoa Account or Password</a>
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
         integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c"
         crossorigin="anonymous"></script>
