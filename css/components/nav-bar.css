@@ -5,10 +5,44 @@
   background-color: #f9f9fa;
   padding: 20px 50px;
   box-sizing: border-box;
+  /*박스 사이즈가 더이상 커지지 않도록 lock을 걸어놓는것*/
   border-top: 1px solid rgba(112, 112, 112, 0.342);
 }
 
 .nav__list {
   display: flex;
   justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #22363e;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 27px;
+  height: 27px;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 17px;
+  bottom: 14px;
+}
+
+.nav__notification__ellipsis {
+  background-color: tomato;
+  width: 6px;
+  height: 6px;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 32px;
+  bottom: 28px;
 }

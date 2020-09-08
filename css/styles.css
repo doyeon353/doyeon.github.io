@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
 @import "reset.css";
-@import "variable.css";
+@import "components/variable.css";
 
 /*Components*/
 @import "components/status-bar.css";
@@ -10,7 +10,6 @@
 @import "screens/login.css";
 body {
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
 }
 
 .welcome-header {
