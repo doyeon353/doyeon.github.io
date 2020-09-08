@@ -1,41 +1,40 @@
-#login-form{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
 }
 
-#login-form input{
-    border: none;
-    padding: 15px 0px;
-    font-size: 18px;
-    margin-bottom: 20px;
-    
+#login-form input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-#login-form input:not([type="submit"]){
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    transition: border-color .3s ease-in-out;
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input::placeholder{
-color: rgba(0, 0, 0, 0.4);
-}/*input에 글자부분 색*/
+#login-form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+} /*input에 글자부분 색*/
 
-#login-form input:focus{
-    border-color: var(--yellow);
-}/*input의 border에 색깔을 변수로 저장하여 색을 지정*/
+#login-form input:focus {
+  border-color: var(--yellow);
+} /*input의 border에 색깔을 변수로 저장하여 색을 지정*/
 
-#login-form input[type="submit"]{
-    background-color: var(--yellow);
-    cursor: pointer;
-    padding: 17px 0px;
-    border-radius: 5px;
+#login-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  padding: 17px 0px;
+  border-radius: 5px;
 }
 
-#login-form a{
-    text-align: center;
-    text-decoration: none;
-    color: inherit;/*inherit은 색상을 아버지의 색상에서 상속한다는 의미
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit; /*inherit은 색상을 아버지의 색상에서 상속한다는 의미
     링크 a 의 데코를 초기화*/
-    font-size: 13px;
+  font-size: 13px;
 }
