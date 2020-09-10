@@ -27,6 +27,21 @@
   font-size: 32px;
   font-weight: 600;
 }
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.screen-header__link {
+  position: relative;
+}
+
+.screen-header__notification__ellipsis {
+  background-color: tomato;
+  width: 5.5px;
+  height: 5.5px;
+  position: absolute;
+  right: -7px;
+  top: -5px;
+  border-radius: 5px;
 }
