@@ -1,0 +1,47 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.welcome-header__text {
+  width: 60%;
+  opacity: 0.7;
+}
+
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons span {
+  margin-left: 25px;
+}
+
+.screen-header__link {
+  position: relative;
+}
+
+.screen-header__notification__ellipsis {
+  background-color: tomato;
+  width: 5.5px;
+  height: 5.5px;
+  position: absolute;
+  right: -7px;
+  top: -5px;
+  border-radius: 5px;
+}
