@@ -19,6 +19,18 @@
   color: #22363e;
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   background-color: tomato;
   width: 27px;
@@ -32,6 +44,7 @@
   position: absolute;
   left: 17px;
   bottom: 14px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__notification__ellipsis {
@@ -45,4 +58,17 @@
   position: absolute;
   left: 32px;
   bottom: 28px;
+}
+
+@keyframes appearBtnAnimation {
+  form {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav__list {
+  animation: appearBtnAnimation 1s ease-in-out;
 }
